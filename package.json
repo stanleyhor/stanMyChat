@@ -1,35 +1,37 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "stanMyChat",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+  "description": "Stanley's Chat in NodeJS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/horwhoe/stanMyChat.git"
   },
-
+  "keywords": [
+    "Stanley",
+    "Chat",
+    "Node"
+  ],
+  "author": "Stanley Hor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horwhoe/stanMyChat/issues"
+  },
+  "homepage": "https://github.com/horwhoe/stanMyChat",
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "buffer-crc32": "^0.2.5",
+    "express": "^3.18.6",
+    "jade": "^1.8.2",
+    "socket.io": "^1.2.1"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }

@@ -1,3 +1,4 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+stanMyChat
+==========
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+Stanley's Chat in NodeJS
